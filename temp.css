@@ -1,0 +1,12 @@
+/*Css is composed of style rule, that the browser interprets and then applies to the document. 
+ *A style rule has three parts: selector, property and value.
+ * */
+h1{
+ color: orange; /* h1-> selector, color-> property, orange is  value, seperated by a semilcolon*/
+}
+#intro .first em{
+color: red;
+background-color: grey;
+font-size: 130%;
+}
+

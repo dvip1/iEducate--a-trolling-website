@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+
+ }
+ .navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+ }
+.nav-list{
+    width: 50%;
+    /*background-color: black;*/    
+    display: flex;
+    align-items: center;
+ }
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list li a{
+    text-decoration: none;  
+    color: black;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo img{
+    width: 31%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.rightNav{
+   /* background-color: purple;*/
+    width: 50%;
+    text-align: right;
+}
+#search{
+    padding: 5px;
+    border: 2px solid slategrey ;
+    border-radius:9px;
+}
+.background{
+    background: rgba(221, 216, 216, 0.568) url("/home/dvip/Documents/html/img/wp2646216-white-background-hd.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.btn{
+    cursor: pointer;
+    padding: 8px 20px;
+    margin: 7px;
+    border: 2px solid lightcoral;
+    border-radius: 15px;
+    background:none;
+    color: black;
+
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 75%;
+  
+}
+.text-small{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.text-big{
+    color: black;
+    font-size: 36px;
+    text-align: center;
+}
+.firstsection{
+    height: 100vh;
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+}
+.secondhalf{
+    width: 30%;
+}
+.secondhalf img{
+    width: 69%;
+    
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+btn-sm{
+    padding: 6px 10px;
+}
+.section{
+    font-family: 'Hi Melody', cursive;
+    height: 500px;
+    align-items: center;
+    justify-content: space-evenly;
+    display:flex;
+    margin: auto;
+    max-width: 80%;
+}
+.para{
+    padding: 0px 60px;
+}
+.sec-left{
+    flex-direction: row-reverse;
+}
+.thumbnail img{
+    width: 220px;
+    border-radius: 27px;
+}
+.sectionTag{
+    font-size: 36px;
+    padding: 16px 0 ;
+}
+.rightNav input{
+    color:lightslategray;
+}
